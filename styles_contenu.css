@@ -1,0 +1,11 @@
+body{
+    background-color: #203058;
+}
+
+.traveler{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
