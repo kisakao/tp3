@@ -65,6 +65,13 @@ body{
     flex-direction: column;
 }
 
+.dendro{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .alhaitham{
     color: white;  
     display: flex;
@@ -105,6 +112,13 @@ body{
     flex-direction: column;
 }
 
+.cryo{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .wriothesly{
     color: white;  
     display: flex;
@@ -143,6 +157,13 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+}
+
+.electro{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .cyno{
