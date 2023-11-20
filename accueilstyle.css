@@ -1,5 +1,6 @@
 body {
     background-color: darkblue;
+    color: white;
 }
 
 h1 {
@@ -8,9 +9,11 @@ h1 {
         url('HYWenHei-HEW.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    color: white;
 
 }
 
-iframe {
-    
+video {
+    flex-direction: column;
 }
+
