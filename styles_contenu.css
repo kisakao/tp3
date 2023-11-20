@@ -2,67 +2,44 @@ body{
     background-color: #203058;
 }
 
-.traveler{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 30px;
-      
- }
+h1{
+    color: white;
+}
+
+/*styles pour les flexbox de rangés*/
 
  .anemodendro{
     color: white;  
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    
+}
+
+.cryoelectro{
+    color: white;  
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: flex-start;
 }
+
+.titre{
+    color: white;  
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+/*styles pour les elements*/
 
 .anemo{
     color: white;  
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
-
-.jean{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.venti{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.xiao{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.sayu{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.sucrose{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
+    
 }
 
 .dendro{
@@ -72,91 +49,11 @@ body{
     justify-content: flex-start;
 }
 
-.alhaitham{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.baizhu{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.kaveh{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.tighnari{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.yaoyao{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
 .cryo{
     color: white;  
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
-
-.wriothesly{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.diona{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.qiqi{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.eula{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.rosaria{
-    color: white;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: column;
 }
 
 .electro{
@@ -166,12 +63,208 @@ body{
     justify-content: flex-start;
 }
 
+/*styles pour les personnages*/
+
+.traveler{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 30px;
+    border: 2px solid white;
+    margin-bottom: 100px;
+    border-radius: 10px;
+      
+ }
+
+.jean{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.venti{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.xiao{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.sayu{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.sucrose{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+
+.alhaitham{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.baizhu{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.kaveh{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.tighnari{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.yaoyao{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.wriothesly{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.diona{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.qiqi{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.eula{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+
+.rosaria{
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
 .cyno{
     color: white;  
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
 }
 
 .keqing{
@@ -180,6 +273,10 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
 }
 
 .fischl{
@@ -188,6 +285,10 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
 }
 
 .yaemiko{
@@ -196,6 +297,10 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
 }
 
 .razor{
@@ -204,4 +309,13 @@ body{
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/*styles pour les images*/
+
+.images{
+    width: 110px;
+    height: 110px;
 }
