@@ -1,16 +1,22 @@
 body {
     background-color: darkblue;
+    color: white;
 }
 
-h1 {
+h1 {    
+    
     font-family: 'HYWenHei-85W';
     src: url('HYWenHei-HEW.woff2') format('woff2'),
         url('HYWenHei-HEW.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    color: white;
 
 }
 
-iframe {
-    
+video {
+    border: 1;
+    border-color: whitesmoke;
+    flex-direction: row;
 }
+
