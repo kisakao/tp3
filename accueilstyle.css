@@ -3,7 +3,8 @@ body {
     color: white;
 }
 
-h1 {
+h1 {    
+    
     font-family: 'HYWenHei-85W';
     src: url('HYWenHei-HEW.woff2') format('woff2'),
         url('HYWenHei-HEW.woff') format('woff');
@@ -14,6 +15,8 @@ h1 {
 }
 
 video {
-    flex-direction: column;
+    border: 1;
+    border-color: whitesmoke;
+    flex-direction: row;
 }
 
