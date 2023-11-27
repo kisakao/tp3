@@ -8,6 +8,9 @@ h1{
     color: white;
 }
 
+h2{
+    align-self: center;
+}
 
 
 /*styles pour les flexbox de rangés*/
@@ -18,7 +21,8 @@ h1{
     flex-wrap: nowrap;
     justify-content: flex-start;
     margin-bottom: 100px;
-    width: 1000px;
+    width: 1380px;
+    
     
     
 }
@@ -28,16 +32,18 @@ h1{
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    width: 1000px;
+    width: 1380px;
+
     
 }
 
 .titre{
     color: white;  
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
     justify-content: flex-start;
-    width: 1000px;
+    width: 1380px;
+    gap: 365px;
 }
 
 
@@ -83,6 +89,7 @@ h1{
     border: 2px solid white;
     margin-bottom: 100px;
     border-radius: 10px;
+    background-image: url("images/traveler_background.png");
       
  }
 
@@ -96,6 +103,8 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
+    
 }
 
 .venti{
@@ -108,6 +117,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .xiao{
@@ -120,6 +130,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .sayu{
@@ -132,6 +143,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .sucrose{
@@ -142,6 +154,7 @@ h1{
     flex-direction: column;
     border: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 
 }
 
@@ -156,6 +169,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .baizhu{
@@ -168,6 +182,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .kaveh{
@@ -180,6 +195,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .tighnari{
@@ -192,6 +208,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .yaoyao{
@@ -202,6 +219,7 @@ h1{
     flex-direction: column;
     border: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 
@@ -215,6 +233,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .diona{
@@ -227,6 +246,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .qiqi{
@@ -239,6 +259,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .eula{
@@ -251,6 +272,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .rosaria{
@@ -261,6 +283,7 @@ h1{
     flex-direction: column;
     border: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 
@@ -274,6 +297,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .keqing{
@@ -286,6 +310,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .fischl{
@@ -298,6 +323,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .yaemiko{
@@ -310,6 +336,7 @@ h1{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
 .razor{
@@ -320,9 +347,10 @@ h1{
     flex-direction: column;
     border: 2px solid white;
     border-radius: 10px;
+    width: 130px;
 }
 
-/*styles pour les images*/
+/*styles pour les images de personnages*/
 
 .images{
     width: 110px;
