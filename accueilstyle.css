@@ -13,12 +13,49 @@ h1 {
     color: white;
     text-align: center;
 
+
 }
 
-video {
-    border: 1;
+.video {
+    padding-left: 700px;
+    border: 13;
     border-color: whitesmoke;
     flex-direction: row;
-    text-align: ;
+    text-align: center;
 }
 
+.youtube {
+    border: 13;
+    border-color: whitesmoke;
+    flex-direction: row;
+    text-align: start;
+    padding-left: 200px;
+}
+
+h2 {
+    font-family: 'HYWenHei-85W';
+    src: url('HYWenHei-HEW.woff2') format('woff2'),
+        url('HYWenHei-HEW.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+p {
+    font-family: 'HYWenHei-85W';
+    src: url('HYWenHei-HEW.woff2') format('woff2'),
+        url('HYWenHei-HEW.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.image {
+
+    padding-left: 1000px;
+
+}
