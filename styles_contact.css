@@ -15,13 +15,49 @@ h1{
 
 .nomcomplet{
     background-color: darkblue;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .info{
     background-color: darkblue;
-    ;
+    width: fit-content;
+
 }
 
 .question{
     background-color: darkblue;
+    width: fit-content;
+}
+
+.perso{
+    display: flex;
+   padding-bottom: 10px;
+    align-items: baseline;
+}
+
+.button{
+    color: white;
+    background-color: #301934;
+    width: 10em;
+    height: 5em;
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+   gap: 150px;
+   
+}
+.firstname{
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+
 }

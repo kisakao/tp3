@@ -13,16 +13,17 @@
     <h1>Contactez-nous</h1>
     <!--Formulaire-->
 
+   
     <form action="page propos.html>">
 
         <!--Prénom et nom de famille-->
+        <div class="contact">
+            <fieldset class="nomcomplet">
+                <legend>Nom Complet</legend>
+                <div class="firstname"><label for="firstname" >Prénom</label>
+                <input type="text" id="firstname" name="firstname"></div>
 
-        <fieldset class="nomcomplet">
-            <legend>Nom Complet</legend>
-            <label for="firstname">Prénom</label>
-            <input type="text" id="firstname" name="firstname">
-
-            <label for="lastname">Nom de Famille</label>
+                <label for="lastname" >Nom de Famille</label>
             <input type="text" id="lastname" name="lastname">
         </fieldset>
 
@@ -30,23 +31,23 @@
             <legend>Information personnels</legend>
 
             <!--Adresse courriel-->
-            <label for="email"> Courriel</label>
-            <input type="email" id="email" name="email" required>
+            <div class="email"><label for="email"> Courriel</label><br>
+            <input type="email" id="email" name="email" required></div>
 
 
             <!--Question sur ce qu'on aime-->
 
             <p>Veuillez indiquer si vous aimez les animes et/ou les jeux vidéos</p>
-            <input type="checkbox" name="animes" id="animes"><label for="animes">Animes</label>
-            <input type="checkbox" name="games" id="games"><label for="games">Jeux Vidéos</label>
+            <div class="perso"><input type="checkbox" name="animes" id="animes"><label for="animes">Animes</label></div>
+            <div class="perso"><input type="checkbox" name="games" id="games"><label for="games">Jeux Vidéos</label></div>
 
             <!--question sur la tranche d'âge-->
 
             <p> Dans quel catégorie d'âge êtes-vous?</p>
-            <input type="radio" name="age" value="moins15" id="moins15"><label>Moins de 15 ans</label>
-            <input type="radio" name="age" value="15-30" id="15-30"><label>Entre 15 et 30 ans</label>
-            <input type="radio" name="age" value="31-60" id="30-60"><label>Entre 31 et 60 ans</label>
-            <input type="radio" name="age" value="plus60" id="plus60"><label>Plus de 60 ans</label>
+            <div class="perso"><input type="radio" name="age" value="moins15" id="moins15"><label>Moins de 15 ans</label></div>
+            <div class="perso"><input type="radio" name="age" value="15-30" id="15-30"><label>Entre 15 et 30 ans</label></div>
+            <div class="perso"><input type="radio" name="age" value="31-60" id="30-60"><label>Entre 31 et 60 ans</label></div>
+            <div class="perso"><input type="radio" name="age" value="plus60" id="plus60"><label>Plus de 60 ans</label></div>
         
         </fieldset>
 
@@ -56,23 +57,24 @@
         <fieldset class="question">
 
         <p>Cochez le/les sujets dont vous avez une/des question(s)</p>
-        <input type="checkbox" name="Perso" id="perso"> <label>Personnages</label>
-        <input type="checkbox" name="armes" id="armes"> <label>Armes</label>
-        <input type="checkbox" name="artefact" id="artefact"> <label>Artéfacts</label>
-        <input type="checkbox" name="quest" id="quest"> <label>Quêtes</label>
-        <input type="checkbox" name="wish" id="wish"> <label>Les voeux</label>
+        <div class="perso"><input type="checkbox" name="Perso" id="perso"> <label>Personnages</label></div>
+        <div class="perso"><input type="checkbox" name="armes" id="armes"> <label>Armes</label></div>
+        <div class="perso"><input type="checkbox" name="artefact" id="artefact"> <label>Artéfacts</label></div>
+        <div class="perso"><input type="checkbox" name="quest" id="quest"> <label>Quêtes</label></div>
+        <div class="perso"><input type="checkbox" name="wish" id="wish"> <label>Les voeux</label><br></div>
 
 
         <!--précision de la question-->
-        <label for="question">question(s)</label>
+        <label for="question">Question(s)</label><br>
         <textarea name="question" id="question" rows="10" placeholder="inscrivez votre/vos question(s) ici..."></textarea>
-
         </fieldset>
+        </div>
+
 
         <!--Bouton d'envoi et reset-->
 
-        <input type="reset" value="réinitializer">
-        <input type="submit" value="Envoyer">
+        <input type="reset" value="réinitializer" class="button">
+        <input type="submit" value="Envoyer" class="button">
 
 
 
