@@ -69,25 +69,26 @@ p {
 .container {
     position: relative;
     width: 50%;
-  }
-  
+    /* Add other necessary styles */
+}
 
-  
-  .overlay {
+.overlay {
+    position: relative;
+    width: 100%;
+    /* Other overlay styles */
+}
+
+.overlay img {
     position: absolute;
-    bottom: 100%;
+    top: 0;
     left: 0;
-    right: 0;
-    overflow: hidden;
-    width: 2000px;
-    height:0;
-    transition: .5s ease;
-  }
-  
-  .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-  }
+    /* Additional image styles */
+}
+
+.button-image {
+    z-index: 2; /* Set a higher z-index to place it on top */
+    /* Adjust positioning if necessary */
+}
   
 
 
@@ -97,4 +98,9 @@ p {
 
 h3 {
     text-align: center;
+}
+
+.image {
+    padding-left: 900px;
+    z-index: 2;
 }

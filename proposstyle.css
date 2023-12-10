@@ -1,0 +1,106 @@
+body {
+  background-color: #203058;
+  color: white;
+}
+
+h1 {    
+  
+  font-family: 'HYWenHei-85W';
+  src: url('HYWenHei-HEW.woff2') format('woff2'),
+      url('HYWenHei-HEW.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+  flex-wrap: wrap;
+  padding-left: 200px;
+
+}
+
+.video {
+  padding-left: 700px;
+  border: 13px;
+  border-color: whitesmoke;
+  flex-direction: row;
+  text-align: center;
+}
+
+.youtube {
+  border: 13px;
+  border-color: whitesmoke;
+  flex-direction: row;
+  text-align: start;
+  padding-left: 200px;
+}
+
+h2 {
+  font-family: 'HYWenHei-85W';
+  src: url('HYWenHei-HEW.woff2') format('woff2'),
+      url('HYWenHei-HEW.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  padding-left: 500px;
+  padding-top: 100px;
+  font-size: 75px;
+}
+
+h3 {
+  font-family: 'HYWenHei-85W';
+  src: url('HYWenHei-HEW.woff2') format('woff2'),
+      url('HYWenHei-HEW.woff') format('woff');
+  font-size: 50px;
+}
+
+p {
+  font-family: 'HYWenHei-85W';
+  src: url('HYWenHei-HEW.woff2') format('woff2'),
+      url('HYWenHei-HEW.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  width: 600px;
+  font-size: 25px;
+
+}
+
+
+.container { 
+  position: relative; 
+  width: 50%; 
+} 
+ 
+
+ 
+.overlay { 
+  position: absolute; 
+  bottom: 100%; 
+  left: 0; 
+  right: 0; 
+  overflow: hidden; 
+  width: 2000px; 
+  height:0; 
+  transition: .5s ease; 
+} 
+ 
+.container:hover .overlay { 
+  bottom: 0; 
+  height: 100%; 
+} 
+
+.prop {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  padding-left: 850px;
+}
