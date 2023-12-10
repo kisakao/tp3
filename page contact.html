@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link href="styles_contact.css" rel="stylesheet">
+</head>
+<body>
+    <!--Menu de navigation-->
+
+
+    <h1>Contactez-nous</h1>
+    <!--Formulaire-->
+
+    <form action="page propos.html>">
+
+        <!--Prénom et nom de famille-->
+
+        <fieldset class="nomcomplet">
+            <legend>Nom Complet</legend>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="firstname">
+
+            <label for="lastname">Nom de Famille</label>
+            <input type="text" id="lastname" name="lastname">
+        </fieldset>
+
+        <fieldset class="info">
+            <legend>Information personnels</legend>
+
+            <!--Adresse courriel-->
+            <label for="email"> Courriel</label>
+            <input type="email" id="email" name="email" required>
+
+
+            <!--Question sur ce qu'on aime-->
+
+            <p>Veuillez indiquer si vous aimez les animes et/ou les jeux vidéos</p>
+            <input type="checkbox" name="animes" id="animes"><label for="animes">Animes</label>
+            <input type="checkbox" name="games" id="games"><label for="games">Jeux Vidéos</label>
+
+            <!--question sur la tranche d'âge-->
+
+            <p> Dans quel catégorie d'âge êtes-vous?</p>
+            <input type="radio" name="age" value="moins15" id="moins15"><label>Moins de 15 ans</label>
+            <input type="radio" name="age" value="15-30" id="15-30"><label>Entre 15 et 30 ans</label>
+            <input type="radio" name="age" value="31-60" id="30-60"><label>Entre 31 et 60 ans</label>
+            <input type="radio" name="age" value="plus60" id="plus60"><label>Plus de 60 ans</label>
+        
+        </fieldset>
+
+        
+        <!--sujet de la question-->
+
+        <fieldset class="question">
+
+        <p>Cochez le/les sujets dont vous avez une/des question(s)</p>
+        <input type="checkbox" name="Perso" id="perso"> <label>Personnages</label>
+        <input type="checkbox" name="armes" id="armes"> <label>Armes</label>
+        <input type="checkbox" name="artefact" id="artefact"> <label>Artéfacts</label>
+        <input type="checkbox" name="quest" id="quest"> <label>Quêtes</label>
+        <input type="checkbox" name="wish" id="wish"> <label>Les voeux</label>
+
+
+        <!--précision de la question-->
+        <label for="question">question(s)</label>
+        <textarea name="question" id="question" rows="10" placeholder="inscrivez votre/vos question(s) ici..."></textarea>
+
+        </fieldset>
+
+        <!--Bouton d'envoi et reset-->
+
+        <input type="reset" value="réinitializer">
+        <input type="submit" value="Envoyer">
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
