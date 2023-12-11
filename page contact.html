@@ -1,13 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link href="styles_contact.css" rel="stylesheet">
 </head>
 <body>
 
+    <div class="container"> 
+        <img src="images/plume.webp" alt="Avatar" class="image"> 
+        <div class="overlay"> 
+            <div class="audio">
+            <audio controls>
+                <source src="vidéo/01 Genshin Impact Main ThemeGenshin Impact.mp3" type="audio/mp3">
+              </audio>
+            </div>
+
+            <img src="images/testback.jpg" width="2000px" > 
+            <a href="accueil.html"><img src="images/crystal.webp" class="prop"></a>
+            <a href="page contact.html"><img src="images/remplacement bouton 2.png" class="prop2"></a>
+            <a href="page contenu.html"><img src="images/remplacement bouton.png"  alt="page contact" class="prop3"></a>
+            <div class="text">Accueil</div>
+            <div class="text2">Contact</div>
+            <div class="text3">Personnages</div> 
+            <a href="https://genshin.hoyoverse.com/fr/"><img src="images/logo.png"alt="logo" class="logo"></a>
+            
+        </div> 
+    </div>
+    <!--Menu de navigation-->
+
+
+    <h1>Contactez-nous</h1>
+    <!--Formulaire-->
+
+   
+    <form action="page propos.html>">
+
+        <!--Prénom et nom de famille-->
+        <div class="contact">
+            <fieldset class="nomcomplet">
+                <legend>Nom Complet</legend>
+                <div class="firstname"><label for="firstname" >Prénom</label>
+                <input type="text" id="firstname" name="firstname"></div>
+
+                <label for="lastname" >Nom de Famille</label>
+                <input type="text" id="lastname" name="lastname">
+            </fieldset>
+
+            <fieldset class="info">
+                <legend>Information personnels</legend>
+
+                <!--Adresse courriel-->
+                <div class="email"><label for="email"> Courriel</label><br>
+                <input type="email" id="email" name="email" required></div>
+
+
+                <!--Question sur ce qu'on aime-->
+
+                <p>Veuillez indiquer si vous aimez les animes et/ou les jeux vidéos</p>
+                <div class="perso"><input type="checkbox" name="animes" id="animes"><label for="animes">Animes</label></div>
+                <div class="perso"><input type="checkbox" name="games" id="games"><label for="games">Jeux Vidéos</label></div>
+
+                <!--question sur la tranche d'âge-->
+
+                <p> Dans quel catégorie d'âge êtes-vous?</p>
+                <div class="perso"><input type="radio" name="age" value="moins15" id="moins15"><label>Moins de 15 ans</label></div>
+                <div class="perso"><input type="radio" name="age" value="15-30" id="15-30"><label>Entre 15 et 30 ans</label></div>
+                <div class="perso"><input type="radio" name="age" value="31-60" id="30-60"><label>Entre 31 et 60 ans</label></div>
+                <div class="perso"><input type="radio" name="age" value="plus60" id="plus60"><label>Plus de 60 ans</label></div>
+        
+             </fieldset>
+
+        
+            <!--sujet de la question-->
+
+            <fieldset class="question">
+
+                <p>Cochez le/les sujets dont vous avez une/des question(s)</p>
+                <div class="perso"><input type="checkbox" name="Perso" id="perso"> <label>Personnages</label></div>
+                <div class="perso"><input type="checkbox" name="armes" id="armes"> <label>Armes</label></div>
+                <div class="perso"><input type="checkbox" name="artefact" id="artefact"> <label>Artéfacts</label></div>
+                <div class="perso"><input type="checkbox" name="quest" id="quest"> <label>Quêtes</label></div>
+                <div class="perso"><input type="checkbox" name="wish" id="wish"> <label>Les voeux</label><br></div>
+
+
+                <!--précision de la question-->
+                <label for="question">Question(s)</label><br>
+                <textarea name="question" id="question" rows="10" placeholder="inscrivez votre/vos question(s) ici..."></textarea>
+            </fieldset>
+        </div>
+
+
+        <!--Bouton d'envoi et reset-->
+
+        <input type="reset" value="réinitializer" class="button">
+        <input type="submit" value="Envoyer" class="button">
+
+
+
+
+
+
+
+
+
+
+    </form>
 
 </body>
 </html>

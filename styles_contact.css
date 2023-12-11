@@ -1,70 +1,78 @@
-body {
-    background-color: #203058;
-    color: white;
+
+
+body{
+    background-image: url(images/background_monstadt.webp );
+    height: 900px;
+    color: white
+    ;
+
+    }
+    .contact{
+        display: flex;
+       gap: 150px;
+       
+    }
+
+/*style du titre*/
+
+h1{
+    text-align: center;
+
 }
 
-h1 {    
+
+/*styles pour les fieldsets*/
+
+.nomcomplet{
+    background-color: darkblue;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
     
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+}
+
+.info{
+    background-color: darkblue;
+    width: fit-content;
+
+}
+
+.question{
+    background-color: darkblue;
+    width: fit-content;
+}
+
+/*styles pour les checkbox*/
+
+.perso{
+    display: flex;
+   padding-bottom: 10px;
+    align-items: baseline;
+}
+
+/*styles pour les textbox*/
+
+.firstname{
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*style pour les boutons*/
+
+.button{
     color: white;
-    font-size: 100px;
-    flex-wrap: wrap;
-    padding-left: 200px;
-
+    background-color: #301934;
+    width: 10em;
+    height: 5em;
+    margin-top: 50px;
 }
-
-.video {
-    padding-left: 700px;
-    border: 13px;
-    border-color: whitesmoke;
-    flex-direction: row;
-    text-align: center;
-}
-
-.youtube {
-    border: 13px;
-    border-color: whitesmoke;
-    flex-direction: row;
-    text-align: start;
-    padding-left: 200px;
-}
-
-h2 {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    padding-left: 500px;
-    padding-top: 100px;
-    font-size: 75px;
-}
-
-h3 {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
-    font-size: 50px;
-}
-
-p {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-    width: 600px;
-    font-size: 25px;
-
-}
-
 
 .container { 
     position: relative; 
@@ -203,8 +211,4 @@ p {
 
   }
 
-
-.primo {
-    padding-left: 800px;
-}
-
+  

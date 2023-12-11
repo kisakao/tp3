@@ -71,8 +71,6 @@ p {
   width: 50%; 
 } 
  
-
- 
 .overlay { 
   position: absolute; 
   bottom: 100%; 
@@ -90,6 +88,7 @@ p {
 } 
 
 .prop {
+  flex-direction: column;
   color: white;
   font-size: 20px;
   position: absolute;
@@ -101,6 +100,105 @@ p {
   text-align: center;
 }
 
-.image {
-  padding-left: 850px;
+.prop2 {
+  flex-direction: column;
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(50%, -50%);
+text-align: center;
+}
+
+.prop3 {
+  flex-direction: column;
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-150%, -50%);
+text-align: center;
+}
+
+.image { 
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(350%, 0%);
+}
+
+.text {
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 120%);
+  text-align: center;
+}
+
+.text2 {
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 120%);
+  text-align: center;
+}
+
+.text3 {
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 120%);
+  text-align: center;
+}
+
+.audio {
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, -50%);
+
+} 
+
+.logo {
+
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 5%;
+  -webkit-user-modify: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, -50%);
+
 }
