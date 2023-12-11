@@ -96,9 +96,7 @@ h1{
   } 
   
   .prop {
-    flex-direction: column;
-    color: white;
-    font-size: 20px;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -109,9 +107,7 @@ h1{
   }
   
   .prop2 {
-    flex-direction: column;
-  color: white;
-  font-size: 20px;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -122,9 +118,7 @@ h1{
   }
   
   .prop3 {
-    flex-direction: column;
-  color: white;
-  font-size: 20px;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -143,7 +137,7 @@ h1{
   }
 
   .text {
-    flex-direction: column;
+
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -157,7 +151,7 @@ h1{
   }
 
   .text2 {
-    flex-direction: column;
+
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -171,7 +165,7 @@ h1{
   }
 
   .text3 {
-    flex-direction: column;
+
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -185,9 +179,7 @@ h1{
   }
   
   .audio {
-    flex-direction: column;
-    color: white;
-    font-size: 20px;
+
     position: absolute;
     top: 50%;
     left: 10%;
@@ -199,10 +191,8 @@ h1{
 
   .logo {
 
-    flex-direction: column;
     color: white;
     position: absolute;
-    font-size: 20px;
     top: 50%;
     right: 5%;
     -webkit-user-modify: translate(-50%, -50%);
@@ -211,4 +201,14 @@ h1{
 
   }
 
+  .propos {
+
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    -webkit-user-modify: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
   

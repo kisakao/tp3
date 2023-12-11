@@ -4,10 +4,7 @@ body {
 }
 
 h1 {    
-    
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
     color: white;
@@ -18,6 +15,7 @@ h1 {
 }
 
 .video {
+    padding-bottom: 100px;
     padding-left: 700px;
     border: 13px;
     border-color: whitesmoke;
@@ -34,9 +32,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     color: white;
@@ -46,17 +41,21 @@ h2 {
     font-size: 75px;
 }
 
+.ecriture {
+
+    padding-left: 100px;
+}
+
+.ecriture2 {
+    padding-left: 900px;
+ 
+}
+
 h3 {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
     font-size: 50px;
 }
 
 p {
-    font-family: 'HYWenHei-85W';
-    src: url('HYWenHei-HEW.woff2') format('woff2'),
-        url('HYWenHei-HEW.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     color: white;
@@ -94,10 +93,9 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    -webkit-user-modify: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
   }
   
   .prop2 {
@@ -114,8 +112,6 @@ p {
   }
   
   .prop3 {
-    flex-direction: column;
-  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -135,7 +131,7 @@ p {
   }
 
   .text {
-    flex-direction: column;
+
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -149,7 +145,7 @@ p {
   }
 
   .text2 {
-    flex-direction: column;
+
     color: white;
     font-weight: bold;
     font-size: 50px;
@@ -163,8 +159,6 @@ p {
   }
 
   .text3 {
-    flex-direction: column;
-    color: white;
     font-weight: bold;
     font-size: 50px;
     position: absolute;
@@ -177,9 +171,7 @@ p {
   }
   
   .audio {
-    flex-direction: column;
-    color: white;
-    font-size: 20px;
+
     position: absolute;
     top: 50%;
     left: 10%;
@@ -191,10 +183,8 @@ p {
 
   .logo {
 
-    flex-direction: column;
     color: white;
     position: absolute;
-    font-size: 20px;
     top: 50%;
     right: 5%;
     -webkit-user-modify: translate(-50%, -50%);
@@ -203,8 +193,25 @@ p {
 
   }
 
+  .images {
+
+    position: absolute;
+    bottom: -50%;
+    right: 50%;
+    -webkit-user-modify: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(60%, 250%);
+
+  }
 
 .primo {
-    padding-left: 800px;
+
+    position: absolute;
+    bottom: -100%;
+    right: 50%;
+    -webkit-user-modify: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 200%);
+
 }
 

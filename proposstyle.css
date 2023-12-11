@@ -4,10 +4,7 @@ body {
 }
 
 h1 {    
-  
-  font-family: 'HYWenHei-85W';
-  src: url('HYWenHei-HEW.woff2') format('woff2'),
-      url('HYWenHei-HEW.woff') format('woff');
+
   font-weight: normal;
   font-style: normal;
   color: white;
@@ -34,9 +31,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'HYWenHei-85W';
-  src: url('HYWenHei-HEW.woff2') format('woff2'),
-      url('HYWenHei-HEW.woff') format('woff');
+
   font-weight: normal;
   font-style: normal;
   color: white;
@@ -47,16 +42,12 @@ h2 {
 }
 
 h3 {
-  font-family: 'HYWenHei-85W';
-  src: url('HYWenHei-HEW.woff2') format('woff2'),
-      url('HYWenHei-HEW.woff') format('woff');
+
   font-size: 50px;
 }
 
 p {
-  font-family: 'HYWenHei-85W';
-  src: url('HYWenHei-HEW.woff2') format('woff2'),
-      url('HYWenHei-HEW.woff') format('woff');
+
   font-weight: normal;
   font-style: normal;
   color: white;
@@ -88,9 +79,7 @@ p {
 } 
 
 .prop {
-  flex-direction: column;
-  color: white;
-  font-size: 20px;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -101,22 +90,18 @@ p {
 }
 
 .prop2 {
-  flex-direction: column;
-color: white;
-font-size: 20px;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(50%, -50%);
-text-align: center;
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(50%, -50%);
+ text-align: center;
 }
 
 .prop3 {
-  flex-direction: column;
-color: white;
-font-size: 20px;
+
 position: absolute;
 top: 50%;
 left: 50%;
@@ -135,7 +120,7 @@ text-align: center;
 }
 
 .text {
-  flex-direction: column;
+
   color: white;
   font-weight: bold;
   font-size: 50px;
@@ -149,7 +134,7 @@ text-align: center;
 }
 
 .text2 {
-  flex-direction: column;
+
   color: white;
   font-weight: bold;
   font-size: 50px;
@@ -163,7 +148,7 @@ text-align: center;
 }
 
 .text3 {
-  flex-direction: column;
+
   color: white;
   font-weight: bold;
   font-size: 50px;
@@ -177,9 +162,7 @@ text-align: center;
 }
 
 .audio {
-  flex-direction: column;
-  color: white;
-  font-size: 20px;
+
   position: absolute;
   top: 50%;
   left: 10%;
@@ -191,8 +174,6 @@ text-align: center;
 
 .logo {
 
-  flex-direction: column;
-  color: white;
   position: absolute;
   font-size: 20px;
   top: 50%;
